@@ -71,8 +71,8 @@ HA Enabled               false
 
 _Rekey Process - Recovery Keys_
 
-In order to rekey Vault's recovery keys it's necessary it's necessary to decode the PGP wrapped key first.
-I've stored the pgp wrapped key in `recovery-key.txt`
+In order to rekey Vault's recovery keys it's necessary to decode the PGP wrapped key first.
+I've stored the pgp wrapped key above in `recovery-key.txt`
 
 ``` bash
 Grahams-MacBook-Pro:aws_autounseal grazzer$ cat recovery-key.txt | base64 --decode | keybase pgp decrypt
