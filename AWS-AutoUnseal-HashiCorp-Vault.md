@@ -2,7 +2,7 @@
 
 ## PGP (Keybase) is used to encrypt the recovery keys
 
-Built base environment using (HashiCorp's Learn Website)[https://learn.hashicorp.com/vault/operations/ops-autounseal-aws-kms#help-and-reference]
+Built base environment using [HashiCorp's Learn Website](https://learn.hashicorp.com/vault/operations/ops-autounseal-aws-kms#help-and-reference)
 
 ``` bash
 ubuntu@ip-192-168-100-194:~$ export VAULT_ADDR=http://127.0.0.1:8200
